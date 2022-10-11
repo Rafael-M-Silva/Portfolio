@@ -67,7 +67,7 @@
 @media screen and (max-width: 470px){
     .box-1 h1{
         font-size: 1.400rem;
-        line-height: 2rem;
+        line-height: 1.5rem;
         letter-spacing: 1px;
     }
     .sociais{
@@ -84,7 +84,7 @@
 @media screen and (max-width: 400px){
     .box-1 h1{
         font-size: 1.200rem;
-        line-height: 2rem;
+        line-height: 1.5rem;
         letter-spacing: 1px;
     }
     .sociais{
@@ -92,8 +92,8 @@
     }
     .btn{
         display: inline-flex;
-        font-size: 0.9rem;
-        line-height: 0.9rem;
+        font-size: 0.7rem;
+        line-height: 1rem;
         text-align: center;
     }
 }
@@ -101,18 +101,34 @@
 @media screen and (max-width: 360px){
     .box-1 h1{
         font-size: 19px;
-        line-height: 2rem;
+        line-height: 1.5rem;
         letter-spacing: 1px;
     }
     nav a {
         padding: 12px 10px;
 }
+    .btn{
+        display: inline-flex;
+        font-size: 0.6rem;
+        line-height: 1rem;
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 355px){
     .box-1 h1{
         font-size: 17px;
-        line-height: 2rem;
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+    }
+    nav a {
+        padding: 12px 8px;
+}
+}
+@media screen and (max-width: 330px){
+    .box-1 h1{
+        font-size: 16px;
+        line-height: 1.5rem;
         letter-spacing: 1px;
     }
     nav a {
