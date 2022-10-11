@@ -1,0 +1,61 @@
+
+img{
+    margin-top: 55px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+p{
+    line-height: 35.9167px;
+    font-size: 16.75px;
+    font-weight: 500;
+    margin-bottom: 26px;
+    text-align: justify;
+}
+.About li{
+    margin-left: 20px;
+    list-style: disc;
+    line-height: 30px;
+    color: #b1b1b1;
+}
+.works h1{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.titulo-work{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.works-flex, .detalhes{
+    display: flex;
+    justify-content: space-between;
+}
+.detalhes{
+    width: 275px;
+}
+.About-nav a{
+    background-color: #2e2e2e;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.tools{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.tools img{
+    background-color: #2e2e2e;
+    padding: 40px;
+    margin: 0;
+}
+.tools p{
+    background-color: #0000009c;
+    border-radius: 5px;
+    margin-top: 0;
+    text-align: center;
+}
+#aprender{
+    margin-bottom: 25px;
+}

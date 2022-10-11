@@ -1,0 +1,104 @@
+
+.box-1 .borda{
+    border-bottom: 1px solid #b1b1b1;
+}
+.box-1 h1{
+    margin-top: 60px;
+    font-size: 3.450rem;
+    line-height: 4.202rem;
+    letter-spacing: 6px;
+}
+.box-1 p{
+    margin-top: 60px;
+    line-height: 35.9167px;
+    font-size: 16.75px;
+    font-weight: 500;
+    text-align: justify;
+}
+.home-links a{
+    border-bottom: none;
+}
+.home-links{
+    gap: 7px;
+    font-size: 1.333rem;
+    display: flex;
+    align-items: center;
+}
+.home-links li{
+    padding: 8px;
+    transition: 0.4s;
+}
+.home-links li:hover{
+    transform: scale(1.2);
+}
+
+.sociais{
+    margin-top: 74px;
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    padding-top: 0;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color: #1e1e1e;
+    border: solid 1px #363636;
+    border-radius: 100px;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+}
+.box-2 h2{
+    font-size: 1.802rem;
+    line-height: 2.566rem;
+}
+.box-2 p{
+    margin-top: 10px;
+}
+.flex img{
+    height: 100px;
+    border-radius: 8px;
+}
+.caixa{
+    margin-top: 20px;
+    width: 100%;
+    padding: 32px;
+    background-color: #1e1e1e;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #242424;
+    gap: 20px;
+}
+.flex{
+    display: flex;
+    gap: 40px;
+}
+nav ul li:hover{
+    padding: auto;
+}
+
+nav ul li a:hover{
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+}
+
+
+.home-links li:hover{
+    background-color: #2e2e2e;
+    border-radius: 5px;
+}
+.caixa:hover{
+    background-color: #2e2e2e;
+}
+.home a{
+    background-color: #2e2e2e;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
