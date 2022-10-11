@@ -26,10 +26,6 @@
     nav a {
         padding: 12px 14px;   
     }
-    nav{
-        position: sticky;
-        bottom: 0;
-    }
 }
 @media screen and (max-width:360px) {
     nav a {
