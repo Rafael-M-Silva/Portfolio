@@ -1,0 +1,40 @@
+@media screen and (max-width:660px) {
+    .tools img{
+        padding: 20px;
+    }
+}
+@media screen and (max-width:530px) {
+    .tools img{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:460px) {
+    .tools img{
+        width: 100px;
+    }
+}
+@media screen and (max-width:420px) {
+    .tools img{
+        width: 80px;
+    }
+    .tools p{
+        font-size: 13px;
+    }
+    #sobre{
+        font-size: 1.700em;
+    }
+    nav a {
+        padding: 12px 14px;   
+    }
+    nav{
+        position: sticky;
+        bottom: 0;
+    }
+}
+@media screen and (max-width:360px) {
+    nav a {
+        padding: 12px 8px;
+    }
+
+}
+

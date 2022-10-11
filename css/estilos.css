@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Mono', monospace;
+}
+article{
+    max-width: 880px;
+    margin: auto;
+}
+body{
+    padding-bottom: 96px;
+}
+main{
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+h1, h2, h3{
+    font-family: 'Noto Sans Mono', monospace;
+    color: white;
+    text-align: start;
+}
+p, span{
+    color: #b1b1b1;
+}
+
+/* Navegação */
+header{
+    background: #131212fd;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #242424;
+    position: sticky;
+    top: 0;
+    background-color: rgba(17, 17, 17, 0.8);
+    backdrop-filter: blur(20px);
+}
+header .logo{
+    margin-left: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.logo{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    min-width: 120px;
+}
+nav{
+    display: flex;
+    margin-right: 10px;
+}
+header{
+    text-align: start;
+    display: flex;
+}
+nav ul{
+    font-size: 14px;
+    display: flex;
+    line-height: 1.9rem;
+}
+nav ul li a:hover{
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+nav a{
+    border-radius: 4px;
+    padding: 12px 24px;
+    margin-left: 2px;
+}
+a{
+    color: #b1b1b1;
+}
+
+
+/* Conteúdo principal */
+body{
+    background: #111111;
+}
+hr{
+    height: 1px;
+    background-repeat: repeat-x;
+    background-position: left center;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 880px;
+}
+.box-1 p{
+    margin-top: 40px;
+    line-height: 35.9167px;
+    font-size: 16.75px;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: #2e2e2e;
+}

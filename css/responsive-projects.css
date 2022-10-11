@@ -1,0 +1,16 @@
+@media screen and (max-width: 950px) {
+    img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 420px) {
+    nav a {
+        padding: 12px 14px;
+}
+}
+@media screen and (max-width: 360px) {
+    nav a {
+        padding: 12px 8px;
+    }
+}
+
