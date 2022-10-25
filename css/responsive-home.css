@@ -53,6 +53,7 @@
     .flex{
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     .flex img{
         width: 120px;
