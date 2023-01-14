@@ -25,10 +25,11 @@
 }
 .home-links li{
     padding: 8px;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 .home-links li:hover{
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .sociais{
